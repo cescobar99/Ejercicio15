@@ -106,6 +106,7 @@ public class Ejercicio15 extends javax.swing.JFrame {
         });
         jPanel1.add(txtPrestamo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 180, -1));
 
+        txtCuotaOrd.setEditable(false);
         txtCuotaOrd.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCuotaOrdKeyTyped(evt);
@@ -113,6 +114,7 @@ public class Ejercicio15 extends javax.swing.JFrame {
         });
         jPanel1.add(txtCuotaOrd, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, 150, -1));
 
+        txtCuotaEsp.setEditable(false);
         txtCuotaEsp.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCuotaEspKeyTyped(evt);
@@ -120,6 +122,7 @@ public class Ejercicio15 extends javax.swing.JFrame {
         });
         jPanel1.add(txtCuotaEsp, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 150, -1));
 
+        txtTotalPagar.setEditable(false);
         txtTotalPagar.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtTotalPagarKeyTyped(evt);

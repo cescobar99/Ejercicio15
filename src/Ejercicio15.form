@@ -173,6 +173,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtCuotaOrd">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCuotaOrdKeyTyped"/>
           </Events>
@@ -183,6 +186,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtCuotaEsp">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCuotaEspKeyTyped"/>
           </Events>
@@ -193,6 +199,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtTotalPagar">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtTotalPagarKeyTyped"/>
           </Events>
